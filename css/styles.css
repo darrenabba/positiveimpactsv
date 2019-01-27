@@ -130,6 +130,18 @@ h1 {
   
 }
 
+.photo-karen {
+  width: 180px; 
+  float: right; 
+  border-radius: 50%;
+}
+
+.partner-image {
+  width: 300px;
+  padding-bottom: 25px
+}
+
+
 @media (min-width: 767px) {
   .navbar-nav.nav-justified > li{
       float:none;
@@ -262,6 +274,9 @@ section {
   margin-bottom: 0;
 }
 
+#technology_container, #industry_container {
+  display: none;
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -290,6 +305,14 @@ and (max-device-width : 480px) {
 
     h2 {
       font-size:18px;
+}
+
+.photo-karen {
+  width: 130px;
+}
+
+.partner-image {
+  width: 280px;
 }
 
 }

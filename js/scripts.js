@@ -145,3 +145,21 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
 /* end google maps */
 
+$(document).ready(function(){
+  $("#businessType").on('change', function(){
+      if (this.value === 'startup') {
+         $('#industry_container').hide();
+         $('#technology_container').show();
+      } else if (this.value === 'enterprises') {
+        $('#technology_container').hide();
+        $('#industry_container').show();
+      } else {
+        $('#technology_container').hide();
+        $('#industry_container').hide();
+      }
+  });
+});
+
+
+/* form */
+

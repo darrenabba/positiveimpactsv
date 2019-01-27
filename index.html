@@ -28,7 +28,7 @@
           <!--<li><a href="#section1">About</a></li>-->
           <li><a href="#section2">About</a></li>
           <!--<li><a href="#section3">Investments</a></li>-->
-          <!--<li><a href="#section4">Location</a></li>-->
+          <li><a href="#section4">Partners</a></li>
           <li><a href="#section5">Contact</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -120,7 +120,7 @@
       <hr>
 
         <h3>Connecting a startup to investors and enterprises, Enterprises to Startups</h3>
-        <img src="images/klee.jpeg" style="width: 180px; float: right; border-radius: 50%;">
+        <img src="images/klee.jpeg" class="photo-karen">
         <p>
         I have a belief that humans should rise up on their own. However, the impact of the environment can not be ignored. Now humanity has entered into the fourth industry, and despite the many creative ideas and technologies, individuals and companies find themselves unable to realize their dreams due to lack of favorable geography, culture, and/or resources.
         </p>
@@ -159,7 +159,6 @@
 </section>
   
 
-<!--
 <div class="divider" id="section4"></div>
 
 <div class="row">
@@ -170,39 +169,24 @@
 <div class="row">
   
   <div class="col-sm-10 col-sm-offset-1">
-      <h1>Location</h1>
-  </div>   
-       
-  <div id="map-canvas"></div>
-  
-  <hr>
-  
-  <div class="col-sm-8"></div>
-  <div class="col-sm-3 pull-right">
+      <h1>Partners</h1>
 
-      <address>
-        <strong>Positive Impact</strong><br>
-        <span id="map-input">
-        111 West Saint John Street, Suite 230<br>
-        San Jose, CA  95113</span><br>
-        P: (408) 204-3453
-      </address>
-    
-      <address>
-        <strong>Email</strong><br>
-        <script>
-          var _na = 'karen';
-          var _dna = '@positiveimpactsv.com';
-          document.write("<a href='mailto:" + _na + _dna + "'>" + _na + _dna + "</a>");
-        </script>
-      </address>          
-  </div>
-  
+      <hr>
+        
+      <div class="partners">
+        <img src="images/inblock.png" class="partner-image">
+      </div>
+      <div class="partners">
+        <img src="images/metacoin.png" class="partner-image">
+      </div>
+        
+  </div> 
+  <div style="height: 138px"></div>
+
 </div>
--->
+
   
 <div class="divider" id="section5"></div>  
-
 <div class="row">
   
   <hr>
@@ -229,7 +213,85 @@
     document.write("<a href='mailto:" + _na + _dna + "'>" + _na + _dna + "</a>");
   </script>
 </address>         
- <!-- @@@@@@@@@@@@ -->   
+ 
+
+<!-- @@@@@@@@@@@@@@@>
+<div>
+  <h4>Send us a message!</h4>
+</div>
+<form role="form" id="" action="mailto:daeban@gmail.com" method="post">
+  <div class="form-group has-feedback">
+      <label class="control-label" for="name">Your Business</label>
+      <select class="form-control input-sm" id="businessType" name="business_type" placeholder="Enter your company name" />
+        <option value="">Select one</option>
+        <option value="startup">Starup</option>
+        <option value="enterprises">Enterprises</option>
+      </select> 
+  </div>
+  <div class="form-group has-feedback" id="technology_container">
+    <div>
+        <p>
+            We help you to connect with right VCs.
+            Please submit your company info.  We will contact you in a week.
+        </p>
+    </div>
+    <label class="control-label" for="phone">IT Technology</label>
+    <input type="tel" class="form-control input-sm optional" id="technology" name="technology" placeholder="Enter IT Technology"/>
+    <span class="help-block" style="display: none;">Please enter IT Technology.</span>
+  </div>
+  <div class="form-group has-feedback" id="industry_container">
+      <div>
+          <p>
+              Please submit your company info.
+              We will find a startups that you are looking for.
+          </p>
+      </div>
+      <label class="control-label" for="phone">Industry</label>
+      <input type="tel" class="form-control input-sm optional" id="industry" name="industry" placeholder="Enter Industry"/>
+      <span class="help-block" style="display: none;">Please enter IT Technology.</span>
+  </div>
+  <div class="form-group has-feedback">
+      <label class="control-label" for="name">Company Name</label>
+      <input type="text" class="form-control input-sm" id="companyName" name="company_name" placeholder="Enter your company name" />
+      <span class="help-block" style="display: none;">Please enter your name.</span>
+  </div>
+  <div class="form-group has-feedback">
+    <label class="control-label" for="phone">Contact Person</label>
+    <input type="tel" class="form-control input-sm optional" id="contact" name="contact" placeholder="Enter contact person name"/>
+    <span class="help-block" style="display: none;">Please enter contact person name.</span>
+  </div>
+  <div class="form-group has-feedback">
+    <label class="control-label" for="phone">Position</label>
+    <input type="tel" class="form-control input-sm optional" id="position" name="position" placeholder="Enter your position"/>
+    <span class="help-block" style="display: none;">Please enter position.</span>
+  </div>
+  <div class="form-group has-feedback">
+    <label class="control-label" for="phone">Website</label>
+    <input type="tel" class="form-control input-sm optional" id="website" name="website" placeholder="Enter your website"/>
+    <span class="help-block" style="display: none;">Please enter position.</span>
+  </div>
+  <div class="form-group has-feedback">
+    <label class="control-label" for="email">Email Address</label>
+    <input type="email" class="form-control input-sm" id="email" name="email" placeholder="Enter your email" />
+    <span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+  </div>
+  <div class="form-group has-feedback">
+    <label class="control-label" for="phone">Phone</label>
+    <input type="tel" class="form-control input-sm optional" id="phone" name="phone" placeholder="Enter your phone (Optional)"/>
+    <span class="help-block" style="display: none;">Please enter a valid phone number.</span>
+  </div>
+  <div class="form-group has-feedback">
+    <label class="control-label" for="message">Message*</label>
+    <textarea rows="5" cols="30" class="form-control input-sm" id="message" name="message" placeholder="Enter your message" ></textarea>
+    <span class="help-block" style="display: none;">Please enter a message.</span>
+  </div>
+
+  </div>
+ 
+  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg" data-loading-text="Sending..." style="display: block; margin-top: 10px;">Send</button>
+</form>
+@@@@@@@@@@@@@@@ -->
+
   </div>
 
   <div class="col-sm-7"></div>
